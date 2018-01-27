@@ -13,7 +13,7 @@ import java.util.List;
  * Created by Alex on 26/1/2018.
  */
 
-public class ViewHolder extends RecyclerView.ViewHolder  {
+public class ViewHolder extends RecyclerView.ViewHolder {
 
     Button btnMegusta, btnfavorito;
     TextView txtTitulo;
@@ -21,7 +21,7 @@ public class ViewHolder extends RecyclerView.ViewHolder  {
 
     public ViewHolder(View itemView) {
         super(itemView);
-
+        int position = getAdapterPosition();
         btnMegusta = (Button) itemView.findViewById(R.id.btnMegusta);
         btnfavorito = (Button) itemView.findViewById(R.id.btnFaboritos);
         txtTitulo = (TextView) itemView.findViewById(R.id.txtTitulo);
