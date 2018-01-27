@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //datos
         ArrayList<Destino> lista = new ArrayList<>();
         lista.add(new Destino("Imagen Numero 2", R.drawable.dos,0));
         lista.add(new Destino("Imagen Numero 1", R.drawable.uno,0));
